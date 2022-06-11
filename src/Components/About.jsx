@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/about.css";
-import ME_ABOUT from "../assets/80-removebg-preview.png";
-import { FaAward } from "react-icons/fa";
-import { BsFolderPlus } from "react-icons/bs";
+import ME_ABOUT from "../assets/pefil 2.jpg";
+import  FaAward  from "../assets/univeridad.jfif";
+import  BsFolderPlus  from "../assets/logo_academlo 5.jpg";
 const About = () => {
   return (
     <section id="about">
@@ -16,25 +16,24 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
-              <FaAward className="about_icon" />
-              <h5> Experience</h5>
-              <small>3 years of experience</small>
+              <img src={FaAward} alt="about_icon" />
+              <h5> University Education</h5>
             </article>
             <article className="about_card">
-              <BsFolderPlus className="about_icon" />
-              <h5> Projects</h5>
+              <img src={BsFolderPlus } alt="about_icon" />
+            
+              <h5> Studies</h5>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            dolorem itaque velit voluptatem reiciendis, vel quaerat quae
-            eligendi, ullam deserunt quibusdam amet eos placeat odit accusamus,
-            unde sunt delectus possimus? ipsum dolor sit amet consectetur
-            adipisicing elit. Nesciunt expedita adipisci quae eum. Officiis
-            error quaerat minima velit, commodi fugiat.
+            Web developer, systems engineer with practice in technologies such
+            as Javascript, Html, React.js, React-redux, Css; Backend development
+            in Node,js, SQL database query, Postgres, MongoDB.
           </p>
         </div>
-        <a href="#contact" className="btn btn-primary">Let's Talk</a>
+        <a href="#contact" className="btn btn-primary">
+          Let's Talk
+        </a>
       </div>
     </section>
   );

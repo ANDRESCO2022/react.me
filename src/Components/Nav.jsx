@@ -18,6 +18,7 @@ const [active, setActive] = useState('#')
         href="#"
         onClick={() => setActive("#")}
         className={active === "#" ? "active" : ""}
+        tooltip="Home"
       >
         <AiOutlineHome />
       </a>
@@ -25,6 +26,7 @@ const [active, setActive] = useState('#')
         href="#about"
         onClick={() => setActive("#about")}
         className={active === "#about" ? "active" : ""}
+        tooltip="About"
       >
         <RiUserSearchLine />
       </a>
@@ -32,6 +34,7 @@ const [active, setActive] = useState('#')
         href="#services"
         onClick={() => setActive("#services")}
         className={active === "#services" ? "active" : ""}
+        tooltip="Services"
       >
         <RiServiceLine />
       </a>
@@ -39,6 +42,7 @@ const [active, setActive] = useState('#')
         href="#portfolio"
         onClick={() => setActive("#portfolio")}
         className={active === "#portfolio" ? "active" : ""}
+        tooltip="Portfolio"
       >
         <BsBookFill />
       </a>
@@ -46,6 +50,7 @@ const [active, setActive] = useState('#')
         href="#experience"
         onClick={() => setActive("#experience")}
         className={active === "#experience" ? "active" : ""}
+        tooltip="Experience"
       >
         <BiBook />
       </a>
@@ -53,6 +58,7 @@ const [active, setActive] = useState('#')
         href="#contact"
         onClick={() => setActive("#contact")}
         className={active === "#contact" ? "active" : ""}
+        tooltip="Contact"
       >
         <BiMessageAltDetail />
       </a>

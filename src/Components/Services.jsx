@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/services.css";
-import { BiCheck } from "react-icons/bi";
+import { GiCheckMark } from "react-icons/gi";
 
 const Services = () => {
   return (
@@ -10,57 +10,41 @@ const Services = () => {
       <div className="container services_container">
         <article className="service">
           <div className="service_head">
-            <h3>UI/UX Design</h3>
+            <h3> Developer Backend</h3>
           </div>
           <ul className="service_list">
             <li>
-              <BiCheck className="service_list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
-                veritatis!
-              </p>
+              <GiCheckMark className="service_list-icon" />
+              <p>Creation of Api rest to integrate applications</p>
             </li>
             <li>
-              <BiCheck className="service_list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
-                veritatis!
-              </p>
+              <GiCheckMark className="service_list-icon" />
+              <p>connection of components in the microservices architecture</p>
             </li>
             <li>
-              <BiCheck className="service_list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
-                veritatis!
-              </p>
+              <GiCheckMark className="service_list-icon" />
+              <p>Designing and maintaining backend connected applications</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service_head">
-            <h3>Web Development</h3>
+            <h3>Developer Frontend-UI Design</h3>
           </div>
           <ul className="service_list">
             <li>
-              <BiCheck className="service_list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
-                veritatis!
-              </p>
+              <GiCheckMark className="service_list-icon" />
+              <p>Design and develop web pages</p>
             </li>
             <li>
-              <BiCheck className="service_list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
-                veritatis!
-              </p>
+              <GiCheckMark className="service_list-icon" />
+
+              <p>Design and development of e-commerce in the networks.</p>
             </li>
             <li>
-              <BiCheck className="service_list-icon" />
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse,
-                veritatis!
-              </p>
+              <GiCheckMark className="service_list-icon" />
+
+              <p>Creation of web applications for different services</p>
             </li>
           </ul>
         </article>

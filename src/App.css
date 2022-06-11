@@ -19,9 +19,9 @@
   --color-white: #ffffff;
   --color-light: rgb(255, 255, 255, 0.6);
   --transition: all 400ms ease;
-  --container-width-lg: 75%;
+  --container-width-lg: 70%;
   --container-width-md: 86%;
-  --container-width-sm: 90%;
+  --container-width-sm: 70%;
 }
 
 html {
@@ -61,7 +61,8 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 3rem;
+  height:100%
 }
 
 section>h2,

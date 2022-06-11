@@ -1,6 +1,4 @@
-#about{
-    margin-top:25rem;
-}
+
 .about_container {
 
     display: grid;
@@ -85,6 +83,7 @@ margin: 1rem 0 1.5rem;
 }
 
 @media screen and (max-width:600px) {
+ 
     .about__me {
         width: 60%;
         margin: 0 auto 3rem;

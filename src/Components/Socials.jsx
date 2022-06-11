@@ -4,12 +4,14 @@ import { FaGithub} from "react-icons/fa";
 
 const Socials = () => {
     return (
-        <div className="header_socials">
-        <a href="https://linkedin.com"  ><BsLinkedin/></a>
-       <a href="https://gitHub.com" ><FaGithub/></a>
-        
-            
-        </div>
+      <div className="header_socials">
+        <a href="https://linkedin.com">
+          <BsLinkedin className="header_social-icon" />
+        </a>
+        <a href="https://github.com/ANDRESCO2022">
+          <FaGithub className="header_social-icon" />
+        </a>
+      </div>
     );
 };
 

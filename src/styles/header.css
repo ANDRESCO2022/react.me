@@ -1,28 +1,39 @@
 header{
     height:100vh;
-    padding-top: 7rem;
+    padding-top: 2rem;
     overflow: hidden;
 }
-.header_container{
+.container.header_container{
     text-align:center;
     height:100%;
-    position:relative;}
+    /* position:relative; */
+}
     /*================*/
     .cv{
-        margin: top 2.5rem;
-        display:flex;
-        gap: 1.5rem;
-        justify-content: center;
+            margin: .5rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 3rem;
+            ;
     }
 
     /*=============0*/
    .header_socials{
-       display: flex;
+       /* display: flex;
        flex-direction:column;
        align-items:center;
        position:absolute;
-       left:0;
-       bottom:3rem;
+       left:2rem;
+       bottom:3rem; */
+           margin-top: 6rem;
+           display: flex;
+           /* flex-direction: column; */
+           /* position: absolute; */
+           left: 2rem;
+           bottom: 3rem;
+           gap: 1rem;
+           justify-content: center;
    }
    .header_socials::after{
        content: "";
@@ -30,9 +41,19 @@ header{
        height: 2px;
        background:var(--color-primary);
    }
+   .header_social-icon{
+    width: 5rem;
+    height: 5rem;
+   }
    /*=============*/
-   .me img{
-       background: var(--color-primary);
+   .me{
+    align-items: center;
+    margin-left:2rem;
+    ;}
+
+   .me {
+    margin-top: 2rem;
+       background: linear-gradient(55deg, var(--color-primary), #08547800);
        width: 18rem;
        height: 20rem;
        position: absolute;
