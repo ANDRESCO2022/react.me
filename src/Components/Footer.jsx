@@ -29,10 +29,10 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer_socials">
-        <a href="https://facebook.com">
+        <a href="cd">
           <BsFacebook />
         </a>
-        <a href="https://linkedIn.com">
+        <a href="hhttps://www.linkedin.com/in/andres-cordoba-sistemas/">
           <FaLinkedinIn />
         </a>
         <a href="https://github.com/ANDRESCO2022">

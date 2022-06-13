@@ -41,8 +41,10 @@ const Contact = () => {
           <article className="contact_option">
             <BsWhatsapp className="contact_option-icon" />
             <h4> WathsApp</h4>
-            <h5>+3167541892</h5>
-            <a href="https://wa.me/3167541892">Send message</a>
+            <h5>+573167541892</h5>
+            <a href="https://api.whatsapp.com/send?phone=+573167541892&text= Hola!%20Quiero%20contactarte%20me%20intereza%20tu%20perfil!">
+              Send message
+            </a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -52,12 +54,7 @@ const Contact = () => {
             placeholder="Your Full Name"
             required
           />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            required
-          />
+          <input type="email" name="email" placeholder="Your Email" required />
           <textarea
             name="message"
             rows="7"
@@ -65,7 +62,6 @@ const Contact = () => {
             required
           ></textarea>
           <button type="submit" class="btn btn-primary">
-        
             Send Message
           </button>
         </form>
