@@ -19,8 +19,8 @@ const Portfolio = () => {
           </div>
           <h3> Ecommerce</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-            perferendis.
+            website developed in react.js, use of Api-rest developed in node.js,
+            use of hooks, react-redux, thunk and jwt.
           </p>
           <a
             href="https://github.com/ANDRESCO2022/ecommers.git"
@@ -41,8 +41,9 @@ const Portfolio = () => {
           </div>
           <h3> React Pokedesk</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-            perferendis.
+            podedesk built from Api pokemon, use of redux, languages like
+            javaScript, react, html , redux and css, search functionality
+            (id-name)
           </p>
           <a
             href="https://github.com/ANDRESCO2022/pokedesk.git"
@@ -64,8 +65,8 @@ const Portfolio = () => {
           </div>
           <h3> Rck and Morty</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-            perferendis.
+            web built from Api rick and morty use and hooks redux-thunk,
+            development with jsx, css styles and html.
           </p>
           <a
             href="https://github.com/ANDRESCO2022/RickAndMorty.git"
