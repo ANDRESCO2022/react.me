@@ -1,23 +1,18 @@
 import React from 'react';
-import CV from '../assets/Cv-en.pdf'
-
-
-
+import CV from '../assets/Cv-en.pdf';
 
 const Cv = () => {
+	return (
+		<div className="cv">
+			<a href={CV} download className="btn ">
+				Download Cv
+			</a>
 
-
-    return (
-      <div className="cv">
-        <a href={CV} download className="btn ">
-          Download Cv
-        </a>
-        
-        <a href="#contact" className="btn btn-primary">
-          Let's Talk
-        </a>
-      </div>
-    );
+			<a href="#contact" className="btn btn-primary">
+				Let's Talk
+			</a>
+		</div>
+	);
 };
 
 export default Cv;
