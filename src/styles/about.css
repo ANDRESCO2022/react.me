@@ -41,6 +41,14 @@
     padding:2rem;
     text-align:center
 }
+.about_card-img{
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    min-width: auto;
+    display: block;
+}
 
 .about_card:hover{
     background:linear-gradient(to bottom, blue,#fff);

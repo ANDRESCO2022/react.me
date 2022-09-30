@@ -3,7 +3,6 @@ import '../styles/about.css';
 import ME_ABOUT from '../assets/pefil 2.jpg';
 import FaAward from '../assets/univeridad.jfif';
 import BsFolderPlus from '../assets/logo_academlo 5.jpg';
-import BsFundation from '../assets/fimlm.png';
 const About = () => {
 	return (
 		<section id="about">
@@ -26,13 +25,20 @@ const About = () => {
 							<h5> Studies</h5>
 						</article>
 						<article className="about_card">
-							<img src={BsFundation} alt="about_icon" />
+							<a href="https://fimlm.org/Campus" itle="Campus • FIMLM">
+								<img className="about_card-img"
+									src="https://images.fimlm.org/campus/Campus-FIMLM-Mini.png"
+									alt="Campus FIMLM"
+								/>
+							</a>
+
 							<h5> Studies</h5>
 						</article>
 					</div>
 					<p>
-						Web developer, systems engineer with practice in technologies such as Javascript, Html, React.js, React-redux, Css; Backend development in
-						Node,js, SQL database query, Postgres, MongoDB.
+						Web developer, systems engineer with practice in technologies such as
+						Javascript, Html, React.js, React-redux, Css; Backend development in Node,js,
+						SQL database query, Postgres, MongoDB.
 					</p>
 				</div>
 				<a href="#contact" className="btn btn-primary">

@@ -6,6 +6,8 @@ import Rick from '../assets/rick.png';
 import { BsGithub } from 'react-icons/bs';
 import { SiWebmoney } from 'react-icons/si';
 import Wather from '../assets/wather.png';
+import todo from '../assets/todo.png';
+import heroes from '../assets/heroes.png';
 
 const Portfolio = () => {
 	return (
@@ -19,7 +21,10 @@ const Portfolio = () => {
 						<img src={Ecommerce} alt="ecommerce" />
 					</div>
 					<h3> Ecommerce</h3>
-					<p>website developed in react.js, use of Api-rest developed in node.js, use of hooks, react-redux, thunk and jwt.</p>
+					<p>
+						website developed in react.js, use of Api-rest developed in node.js, use of
+						hooks, react-redux, thunk and jwt.
+					</p>
 					<a href="https://github.com/ANDRESCO2022/ecommers.git" className="btn">
 						<BsGithub />
 					</a>
@@ -32,7 +37,10 @@ const Portfolio = () => {
 						<img src={Pokedesk} alt="pokedesk" />
 					</div>
 					<h3> React Pokedesk</h3>
-					<p>podedesk built from Api pokemon, use of redux, languages like javaScript, react, html , redux and css, search functionality (id-name)</p>
+					<p>
+						podedesk built from Api pokemon, use of redux, languages like javaScript,
+						react, html , redux and css, search functionality (id-name)
+					</p>
 					<a href="https://github.com/ANDRESCO2022/pokedesk.git" className="btn">
 						<BsGithub />
 					</a>
@@ -46,7 +54,10 @@ const Portfolio = () => {
 						<img src={Rick} alt="rick" />
 					</div>
 					<h3> Rck and Morty</h3>
-					<p>web built from Api rick and morty use and hooks redux-thunk, development with jsx, css styles and html.</p>
+					<p>
+						web built from Api rick and morty use and hooks redux-thunk, development with
+						jsx, css styles and html.
+					</p>
 					<a href="https://github.com/ANDRESCO2022/RickAndMorty.git" className="btn">
 						<BsGithub />
 					</a>
@@ -56,14 +67,51 @@ const Portfolio = () => {
 				</article>
 				<article className="portfolio_item">
 					<div className="portfolio_item-image">
-						<img src={Wather} alt="rick" />
+						<img src={Wather} alt="wather" />
 					</div>
 					<h3> App-Wather</h3>
-					<p>web built from weather api use and development with jsx, css styles and html.</p>
+					<p>
+						web built from weather api use and development with jsx, css styles and html.
+					</p>
 					<a href="https://github.com/ANDRESCO2022/weatherConditions" className="btn">
 						<BsGithub />
 					</a>
-					<a href="https://vigorous-bardeen-1360f2.netlify.app/" className="btn btn-primary">
+					<a
+						href="https://vigorous-bardeen-1360f2.netlify.app/"
+						className="btn btn-primary"
+					>
+						Demo/ <SiWebmoney />
+					</a>
+				</article>
+				<article className="portfolio_item">
+					<div className="portfolio_item-image">
+						<img src={todo} alt="todo" />
+					</div>
+					<h3> App-Todo</h3>
+					<p>task listing website built with react.js, tailwind CSS responsive design.</p>
+					<a href="https://github.com/ANDRESCO2022/todoAPPTellwing.git" className="btn">
+						<BsGithub />
+					</a>
+					<a href="https://app-todo-2022.netlify.app/" className="btn btn-primary">
+						Demo/ <SiWebmoney />
+					</a>
+				</article>
+				<article className="portfolio_item">
+					<div className="portfolio_item-image">
+						<img src={heroes} alt="todo" />
+					</div>
+					<h3> App-Heroes</h3>
+					<p>
+						website built from superheroes api, deployed on firebase, with react.js,
+						tailwind CSS responsive design.
+					</p>
+					<a href="https://github.com/ANDRESCO2022/heroes.github.io.git" className="btn">
+						<BsGithub />
+					</a>
+					<a
+						href="https://super-heroes-app.netlify.app/inicio"
+						className="btn btn-primary"
+					>
 						Demo/ <SiWebmoney />
 					</a>
 				</article>
