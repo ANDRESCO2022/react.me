@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    position: relative;
+    width: 100px; /* Ancho del contenedor principal */
+    height: 100px; /* Altura del contenedor principal */
+    transform-style: preserve-3d;
+    animation: animate 30s linear infinite;
+    transform: translateY(30px) scale(1.2);
+    cursor: pointer;
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    backface-visibility: hidden;
+    max-width: 100%;
+}
+
+.slider span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 3s;
+    transform: translateZ(1px);
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        width: 80px;
+        height: 80px;
+        transform: translateY(15px) scale(1);
+    }
+
+    .slider span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px); 
+    }
+
+    .slider span img {
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider {
+        width: 80px;
+        height: 80px;
+        transform: translateY(15px) scale(1);
+    }
+
+    .slider span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px); 
+    }
+
+    .slider span img {
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider {
+        width: 60px;
+        height: 60px;
+        transform: translateY(10px) scale(0.8);
+    }
+
+    .slider span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(150px); 
+    }
+
+    .slider span img {
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slider {
+        width: 50px;
+        height: 50px;
+        transform: translateY(5px) scale(0.6);
+    }
+
+    .slider span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(150px); 
+    }
+
+    .slider span img {
+        transition: 0.3s;
+    }
+}

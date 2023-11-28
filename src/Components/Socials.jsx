@@ -1,18 +1,22 @@
 import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { FaGithub } from 'react-icons/fa';
 
-const Socials = () => {
+import { FaLinkedinIn } from 'react-icons/fa6';
+import CV from '../assets/Cv-en.pdf';
+import { VscGithub } from 'react-icons/vsc';
+
+export const Socials = () => {
 	return (
 		<div className="header_socials">
 			<a href="https://www.linkedin.com/in/andres-cordoba-sistemas/">
-				<BsLinkedin className="header_social-icon" />
+				<FaLinkedinIn className="header_social-icon" />
 			</a>
+
 			<a href="https://github.com/ANDRESCO2022">
-				<FaGithub className="header_social-icon" />
+				<VscGithub className="header_social-icon" />
+			</a>
+			<a href={CV} download className="btn ">
+				Download Cv
 			</a>
 		</div>
 	);
 };
-
-export default Socials;

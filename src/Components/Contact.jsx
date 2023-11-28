@@ -6,12 +6,17 @@ import { BsWhatsapp } from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
-const Contact = () => {
+export const Contact = () => {
 	const form = useRef();
 	const sendEmail = (e) => {
 		e.preventDefault();
 
-		emailjs.sendForm('service_acjrze5', 'template_vtj7z8d', form.current, 'Y21PJh6ZQOjl5l8QO');
+		emailjs.sendForm(
+			'service_acjrze5',
+			'template_vtj7z8d',
+			form.current,
+			'Y21PJh6ZQOjl5l8QO'
+		);
 		e.target.reset();
 	};
 
@@ -34,7 +39,7 @@ const Contact = () => {
 					</article>
 					<article className="contact_option">
 						<BsWhatsapp className="contact_option-icon" />
-						<h4> WathsApp</h4>
+						<h4> WhathsApp</h4>
 						<h5>+573167541892</h5>
 						<a href="https://api.whatsapp.com/send?phone=+573167541892&text= Hola!%20Quiero%20contactarte%20me%20interesa%20tu%20perfil!">
 							Send message
@@ -44,7 +49,12 @@ const Contact = () => {
 				<form ref={form} onSubmit={sendEmail}>
 					<input type="text" name="name" placeholder="Your Full Name" required />
 					<input type="email" name="email" placeholder="Your Email" required />
-					<textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+					<textarea
+						name="message"
+						rows="7"
+						placeholder="Your Message"
+						required
+					></textarea>
 					<button type="submit" className="btn btn-primary">
 						Send Message
 					</button>
@@ -53,5 +63,3 @@ const Contact = () => {
 		</section>
 	);
 };
-
-export default Contact;

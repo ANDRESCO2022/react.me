@@ -5,7 +5,7 @@ import { BsFacebook } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 
-const Footer = () => {
+export const Footer = () => {
 	return (
 		<footer>
 			<ul className="linksPage">
@@ -45,5 +45,3 @@ const Footer = () => {
 		</footer>
 	);
 };
-
-export default Footer;

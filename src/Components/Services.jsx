@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/services.css';
 import { GiCheckMark } from 'react-icons/gi';
 
-const Services = () => {
+export const Services = () => {
 	return (
 		<section id="services">
 			<h5> What i Offer</h5>
@@ -52,5 +52,3 @@ const Services = () => {
 		</section>
 	);
 };
-
-export default Services;

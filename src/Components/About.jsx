@@ -1,9 +1,10 @@
 import React from 'react';
 import '../styles/about.css';
 import ME_ABOUT from '../assets/pefil 2.jpg';
-import FaAward from '../assets/univeridad.jfif';
-import BsFolderPlus from '../assets/logo_academlo 5.jpg';
-const About = () => {
+import University from '../assets/Logo_de_Uniremington.png';
+import Bootcam from '../assets/logo_academlo.png';
+import FIMLM from '../assets/fimlm.png';
+export const About = () => {
 	return (
 		<section id="about">
 			<h5>Get To know</h5>
@@ -16,23 +17,26 @@ const About = () => {
 				<div className="about_content">
 					<div className="about_cards">
 						<article className="about_card">
-							<img src={FaAward} alt="about_icon" />
+							<a
+								href="https://www.uniremington.edu.co/"
+								title="university • Uniremington"
+							>
+								<img className="about_card-img" src={University} alt="Uniremington" />
+							</a>
 							<h5> University Education</h5>
 						</article>
 						<article className="about_card">
-							<img src={BsFolderPlus} alt="about_icon" />
-
-							<h5> Studies</h5>
+							<a href="https://www.academlo.com/" title="Campus • Academlo">
+								<img className="about_card-img" src={Bootcam} alt="Acaddemlo" />
+							</a>
+							<h5> Web full stacks</h5>
 						</article>
 						<article className="about_card">
-							<a href="https://fimlm.org/Campus" itle="Campus • FIMLM">
-								<img className="about_card-img"
-									src="https://images.fimlm.org/campus/Campus-FIMLM-Mini.png"
-									alt="Campus FIMLM"
-								/>
+							<a href="https://fimlm.org/Campus" title="Campus • FIMLM">
+								<img className="about_card-img" src={FIMLM} alt="Campus FIMLM" />
 							</a>
 
-							<h5> Studies</h5>
+							<h5> Web development</h5>
 						</article>
 					</div>
 					<p>
@@ -48,5 +52,3 @@ const About = () => {
 		</section>
 	);
 };
-
-export default About;

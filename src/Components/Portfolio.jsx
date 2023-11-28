@@ -1,123 +1,74 @@
-import React from 'react';
 import '../styles/portfolio.css';
-import Ecommerce from '../assets/ecommerce.png';
-import Pokedesk from '../assets/pokedesk.png';
-import Rick from '../assets/rick.png';
-import { BsGithub } from 'react-icons/bs';
+import { portfolioData } from '../data/portfolioData';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/free-mode';
+import { FreeMode, Pagination, Autoplay, EffectCoverflow } from 'swiper/modules';
 import { SiWebmoney } from 'react-icons/si';
-import Wather from '../assets/wather.png';
-import todo from '../assets/todo.png';
-import heroes from '../assets/heroes.png';
+import { BsGithub } from 'react-icons/bs';
 
-const Portfolio = () => {
+export const Portfolio = () => {
 	return (
 		<section id="portfolio">
 			<h5>My Recent Work</h5>
 			<h2>Portfolio</h2>
-
-			<div className=" container portfolio_container">
-				<article className="portfolio_item">
-					<div className="portfolio_item-image">
-						<img src={Ecommerce} alt="ecommerce" />
-					</div>
-					<h3> Ecommerce</h3>
-					<p>
-						website developed in react.js, use of Api-rest developed in node.js, use of
-						hooks, react-redux, thunk and jwt.
-					</p>
-					<a href="https://github.com/ANDRESCO2022/ecommers.git" className="btn">
-						<BsGithub />
-					</a>
-					<a href="https://first-ecommers.netlify.app/" className="btn btn-primary">
-						Demo/ <SiWebmoney />
-					</a>
-				</article>
-				<article className="portfolio_item">
-					<div className="portfolio_item-image">
-						<img src={Pokedesk} alt="pokedesk" />
-					</div>
-					<h3> React Pokedesk</h3>
-					<p>
-						podedesk built from Api pokemon, use of redux, languages like javaScript,
-						react, html , redux and css, search functionality (id-name)
-					</p>
-					<a href="https://github.com/ANDRESCO2022/pokedesk.git" className="btn">
-						<BsGithub />
-					</a>
-					<a href="https://yourpokedesk.netlify.app" className="btn btn-primary">
-						Demo/
-						<SiWebmoney />
-					</a>
-				</article>
-				<article className="portfolio_item">
-					<div className="portfolio_item-image">
-						<img src={Rick} alt="rick" />
-					</div>
-					<h3> Rck and Morty</h3>
-					<p>
-						web built from Api rick and morty use and hooks redux-thunk, development with
-						jsx, css styles and html.
-					</p>
-					<a href="https://github.com/ANDRESCO2022/RickAndMorty.git" className="btn">
-						<BsGithub />
-					</a>
-					<a href="https://rickandmorthy-app.netlify.app/" className="btn btn-primary">
-						Demo/ <SiWebmoney />
-					</a>
-				</article>
-				<article className="portfolio_item">
-					<div className="portfolio_item-image">
-						<img src={Wather} alt="wather" />
-					</div>
-					<h3> App-Wather</h3>
-					<p>
-						web built from weather api use and development with jsx, css styles and html.
-					</p>
-					<a href="https://github.com/ANDRESCO2022/weatherConditions" className="btn">
-						<BsGithub />
-					</a>
-					<a
-						href="https://vigorous-bardeen-1360f2.netlify.app/"
-						className="btn btn-primary"
-					>
-						Demo/ <SiWebmoney />
-					</a>
-				</article>
-				<article className="portfolio_item">
-					<div className="portfolio_item-image">
-						<img src={todo} alt="todo" />
-					</div>
-					<h3> App-Todo</h3>
-					<p>task listing website built with react.js, tailwind CSS responsive design.</p>
-					<a href="https://github.com/ANDRESCO2022/todoAPPTellwing.git" className="btn">
-						<BsGithub />
-					</a>
-					<a href="https://app-todo-2022.netlify.app/" className="btn btn-primary">
-						Demo/ <SiWebmoney />
-					</a>
-				</article>
-				<article className="portfolio_item">
-					<div className="portfolio_item-image">
-						<img src={heroes} alt="todo" />
-					</div>
-					<h3> App-Heroes</h3>
-					<p>
-						website built from superheroes api, deployed on firebase, with react.js,
-						tailwind CSS responsive design.
-					</p>
-					<a href="https://github.com/ANDRESCO2022/heroes.github.io.git" className="btn">
-						<BsGithub />
-					</a>
-					<a
-						href="https://super-heroes-app.netlify.app/inicio"
-						className="btn btn-primary"
-					>
-						Demo/ <SiWebmoney />
-					</a>
-				</article>
-			</div>
+			<Swiper
+				effect={'coverflow'}
+				grabCursor={true}
+				centeredSlides={false}
+				centerInsufficientSlides={true}
+				slidesPerView={3}
+				loop={true}
+				initialSlide={1}
+				coverflowEffect={{
+					rotate: 50,
+					stretch: 0,
+					depth: 100,
+					modifier: 2.5,
+					slideShadows: true,
+				}}
+				autoplay={{
+					delay: 3000,
+					disableOnInteraction: false,
+				}}
+				breakpoints={{
+					300: {
+						slidesPerView: 1,
+						spaceBetween: 5,
+					},
+					600: {
+						slidesPerView: 2,
+						spaceBetween: 10,
+					},
+					680: {
+						slidesPerView: 3,
+						spaceBetween: 15,
+					},
+				}}
+				freeMode={true}
+				pagination={{ clickable: true, dynamicBullets: true }}
+				modules={[FreeMode, Pagination, Autoplay, EffectCoverflow]}
+				className=" container portfolio_container"
+			>
+				{portfolioData.map((itemData) => (
+					<SwiperSlide key={itemData.id}>
+						<article className="portfolio_item">
+							<div className="portfolio_item-image">
+								<img src={itemData.image} alt={itemData.textAlt} />
+							</div>
+							<h3>{itemData.title}</h3>
+							<p>{itemData.description}</p>
+							<a href={itemData.UrlGitHub} className="btn">
+								<BsGithub />
+							</a>
+							<a href={itemData.UrlDemo} className="btn btn-primary">
+								Demo/ <SiWebmoney />
+							</a>
+						</article>
+					</SwiperSlide>
+				))}
+			</Swiper>
 		</section>
 	);
 };
-
-export default Portfolio;

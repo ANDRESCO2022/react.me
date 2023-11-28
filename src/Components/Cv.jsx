@@ -1,7 +1,9 @@
 import React from 'react';
 import CV from '../assets/Cv-en.pdf';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
 
-const Cv = () => {
+export const Cv = () => {
 	return (
 		<div className="cv">
 			<a href={CV} download className="btn ">
@@ -14,5 +16,3 @@ const Cv = () => {
 		</div>
 	);
 };
-
-export default Cv;

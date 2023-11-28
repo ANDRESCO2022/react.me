@@ -42,23 +42,36 @@ margin-bottom: 0.8rem;
 .service_list{
     font-size: 0.9rem;
 }
+/* Para pantallas con un ancho máximo de 1024px */
 @media screen and (max-width: 1024px) {
-    .services_container{
-        grid-template-columns: 1fr 1fr;
-        gap:2rem;
-        margin: 1rem;
+    .slider {
+        width: 80px;
+        height: 80px;
+        transform: translateY(15px) scale(1);
     }
-    .service{
-        height: auto;
+
+    .slider span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px);
     }
-  
+
+    .slider span img {
+        transition: 1s;
+    }
+
+    #skills h2 {
+        font-size: 1.5em; 
+    }
 }
 
-@media screen and (max-width:600px) {
-.services_container{
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+/* Para pantallas con un ancho máximo de 1024px */
+@media screen and (max-width: 600px) {
+   .services_container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 95%;
+   }
 }
 
-}
+
    

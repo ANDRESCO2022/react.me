@@ -1,82 +1,87 @@
-header{
-    height:100vh;
+header {
+    /* height:100vh; */
     padding-top: 2rem;
     overflow: hidden;
 }
-.container.header_container{
-    text-align:center;
-    height:100%;
+
+.container.header_container {
+    text-align: center;
+    /* height:100%; */
     /* position:relative; */
 }
-    /*================*/
-    .cv{
-            margin: .5rem;
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            margin-top: 3rem;
-            ;
-    }
 
-    /*=============0*/
-   .header_socials{
-    
-           margin-top: 3rem;
-           display: flex;
-         
-           left: 2rem;
-           bottom: 3rem;
-           gap: 1rem;
-           justify-content: center;
-   }
-   .header_socials::after{
-       content: "";
-       width: 1px;
-       height: 2px;
-       background:var(--color-primary);
-   }
-   .header_social-icon{
-    width: 5rem;
-    height: 5rem;
-   }
-   /*=============*/
-   .me{
-    align-items: center;
-    margin-left:2rem;
-    ;}
+/*================*/
+.cv {
+    margin: .5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 3rem;
 
-   .me {
+}
+
+/*=============0*/
+.header_socials {
+
     margin-top: 2rem;
-       background: linear-gradient(55deg, var(--color-primary), #08547800);
-       width: 18rem;
-       height: 20rem;
-       position: absolute;
-       border-radius:12px;
-       justify-content:center;
+    display: flex;
 
-   }
-   /*=============*/
-.scroll_down{
+    left: 2rem;
+    bottom: 3rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.header_socials::after {
+    content: "";
+    width: 1px;
+    height: 2px;
+    background: var(--color-primary);
+}
+
+.header_social-icon {
+    width: 3rem;
+    height: 4rem;
+}
+
+/*=============*/
+.me {
+    align-items: center;
+    margin-left: 2rem;
+    ;
+}
+
+.me {
+    margin-top: 2rem;
+    background: linear-gradient(55deg, var(--color-primary), #08547800);
+    width: 18rem;
+    height: 20rem;
     position: absolute;
-    right:-1.3rem;
-    bottom:5rem;
-    transition:rotate(50deg);
+    border-radius: 12px;
+    justify-content: center;
+
+}
+
+/*=============*/
+.scroll_down {
+    bottom: 5rem;
+    transition: rotate(50deg);
     font-size: 0.9 rem;
 
 }
 
 /*============*/
-@media  screen and (max-width: 1024px){
-    header {
+@media screen and (max-width: 1024px) {
+    /* header {
         height: 68vh;
-    }
+    } */
 
 }
 
-@media  screen and (max-width: 600px){
-    .scroll_down{
+@media screen and (max-width: 600px) {
+    .scroll_down {
         display: none;
     }
 
 }
-    

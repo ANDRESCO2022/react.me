@@ -1,35 +1,51 @@
-nav{
-    background: rgba(0 ,0,0,0.3);
+nav {
+    /* background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
     padding: .5rem;
     z-index: 2;
     position: fixed;
-    left:85%;
+  right: -1.5rem;
     transform:translateX(-50%);
     bottom: 5rem;
-    display:flex;
+    display: flex;
     gap: 0.8 rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    flex-direction: column; */
+      background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: .5rem;
+    z-index: 2;
+    position: fixed;
+    bottom: 5rem;
+    display: flex;
+    gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
     flex-direction: column;
 }
-nav a{
+
+nav a {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
-    display:flex;
+    display: flex;
     color: var(--color-light);
     font: size 1.2rem;
 
 }
-nav a:hover{
-    background: rgba(0,0,0,0.3);
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
 }
-nav a.active{
+
+nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
 /* START TOOLTIP STYLES */
 [tooltip] {
     position: relative;
@@ -182,26 +198,29 @@ nav a.active{
 [tooltip]:not([flow]):hover::before,
 [tooltip]:not([flow]):hover::after,
 [tooltip][flow^="down"]:hover::after {
-    animation: tooltips-vert 300ms ease-out forwards;}
+    animation: tooltips-vert 300ms ease-out forwards;
+}
+
 [tooltip][flow^="right"]:hover::after {
     animation: tooltips-horz 300ms ease-out forwards;
 }
 
- @media screen and (min-width: 1024px) {
-      nav {
-          left: 60%;
-      }
-   
-     }
-@media screen and (min-width:600px) {
- 
-  nav{
-    left:75%;
-  }
+@media screen and (min-width: 1024px) {
+    nav {
+        left: 60%;
+    }
+
 }
 
+@media screen and (min-width:600px) {
 
+    nav {
+        left: 75%;
+        right: 1.5rem; /* Ajusta según tus necesidades */
+        left: auto; /* Asegura que 'left' no interfiera */
+        transform: translateY(-50%);
+        bottom: auto;
+       
 
-
-
-
+    }
+}

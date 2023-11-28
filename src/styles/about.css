@@ -38,16 +38,17 @@
     background: var(--color-bg-variant);
     border: 3px solid transparent;
     border-radius:1rem;
-    padding:2rem;
+    padding: 0.5em;
     text-align:center
 }
 .about_card-img{
     margin: 0 auto;
-    margin-top: 3rem;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     min-width: auto;
     display: block;
+    border-radius: 0.8rem;
+    height: 40%;
 }
 
 .about_card:hover{
