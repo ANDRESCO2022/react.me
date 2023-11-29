@@ -1,6 +1,5 @@
 export * from './About';
 export * from './Contact';
-export * from './Cv';
 export * from './Experience';
 export * from './Footer';
 export * from './Header';

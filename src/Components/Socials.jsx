@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FaLinkedinIn } from 'react-icons/fa6';
-import CV from '../assets/Cv-en.pdf';
+import CV from '../assets/Carlos Andres Cordoba Rodriguez.pdf';
 import { VscGithub } from 'react-icons/vsc';
 
 export const Socials = () => {

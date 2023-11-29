@@ -1,19 +1,5 @@
 nav {
-    /* background: rgba(0, 0, 0, 0.3);
-    width: max-content;
-    display: block;
-    padding: .5rem;
-    z-index: 2;
-    position: fixed;
-  right: -1.5rem;
-    transform:translateX(-50%);
-    bottom: 5rem;
-    display: flex;
-    gap: 0.8 rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
-    flex-direction: column; */
-      background: rgba(0, 0, 0, 0.3);
+   
     width: max-content;
     display: block;
     padding: .5rem;
@@ -23,7 +9,6 @@ nav {
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
-    backdrop-filter: blur(15px);
     flex-direction: column;
 }
 
@@ -34,6 +19,7 @@ nav a {
     display: flex;
     color: var(--color-light);
     font: size 1.2rem;
+    border: solid rgb(59,66,156) 1px;
 
 }
 
@@ -216,9 +202,9 @@ nav a.active {
 
     nav {
         left: 75%;
-        right: 1.5rem; /* Ajusta según tus necesidades */
-        left: auto; /* Asegura que 'left' no interfiera */
-        transform: translateY(-50%);
+        right: 1.5rem; 
+        left: auto; 
+        transform: translateY(0%);
         bottom: auto;
        
 
