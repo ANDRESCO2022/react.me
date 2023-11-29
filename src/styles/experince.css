@@ -15,7 +15,7 @@
     border: 3px solid transparent;
     border-radius: 1rem;
     text-align: center;
-   
+
 }
 
 .experience_card-img {
@@ -55,7 +55,7 @@
     .experience_container {
         grid-template-columns: 1fr;
         gap: 0;
-      
+
 
     }
 

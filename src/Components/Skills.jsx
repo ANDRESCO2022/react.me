@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { sliderData } from '../data/sliderDta';
 import '../styles/skills.css';
 

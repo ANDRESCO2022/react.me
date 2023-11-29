@@ -48,4 +48,9 @@ export const sliderData = [
 		textAlt: 'logo python',
 		image: Python,
 	},
+	{
+		id: 9,
+		textAlt: 'logo SQL',
+		image: SQL,
+	},
 ];

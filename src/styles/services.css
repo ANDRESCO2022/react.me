@@ -1,57 +1,68 @@
-.services_container{
+.services_container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
 }
-.service{
+
+.service {
     background: var(--color-bg-variant);
     border-radius: 0 0 1rem 1rem;
     border: .7px solid var(--color-primary);
-    height:fit-content;
-    transition:var(--transition);
+    height: fit-content;
+    transition: var(--transition);
+    width: 95%;
+    height: 90%;
 }
-.service:hover{
+
+.service:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor:default;
+    cursor: default;
 }
-.service_head{
+
+.service_head {
     background: var(--color-primary);
     padding: 2rem;
     border-radius: 0 0 1rem 1rem;
-    box-shadow:  0 2rem 1rem rgba(0,0,0,0.1);
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
-.service_head h3{
+
+.service_head h3 {
     color: var(--color-bg);
     font: size 1rem;
     text-align: center;
 }
-.service_list{
+
+.service_list {
     padding: 2rem;
 
 }
-.service_list li{
-display:flex;
-gap: 1rem;
-margin-bottom: 0.8rem;    
+
+.service_list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
 }
-.service_list-icon{
+
+.service_list-icon {
     color: var(--color-primary);
     margin-top: 2px;
 }
-.service_list{
+
+.service_list {
     font-size: 0.9rem;
 }
+
 /* Para pantallas con un ancho máximo de 1024px */
 @media screen and (max-width: 1024px) {
     .slider {
-        width: 80px;
-        height: 80px;
+        width: 5rem;
+        height: 5rem;
         transform: translateY(15px) scale(1);
     }
 
     .slider span {
-        transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px);
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(122.5rem);
     }
 
     .slider span img {
@@ -59,19 +70,17 @@ margin-bottom: 0.8rem;
     }
 
     #skills h2 {
-        font-size: 1.5em; 
+        font-size: 1.5em;
     }
 }
 
 /* Para pantallas con un ancho máximo de 1024px */
 @media screen and (max-width: 600px) {
-   .services_container{
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    width: 95%;
-   }
+    .services_container {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: center;
+    }
 }
-
-
-   

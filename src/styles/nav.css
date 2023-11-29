@@ -1,5 +1,5 @@
 nav {
-   
+
     width: max-content;
     display: block;
     padding: .5rem;
@@ -19,7 +19,7 @@ nav a {
     display: flex;
     color: var(--color-light);
     font: size 1.2rem;
-    border: solid rgb(59,66,156) 1px;
+    border: solid rgb(59, 66, 156) 1px;
 
 }
 
@@ -202,11 +202,11 @@ nav a.active {
 
     nav {
         left: 75%;
-        right: 1.5rem; 
-        left: auto; 
+        right: 1.5rem;
+        left: auto;
         transform: translateY(0%);
         bottom: auto;
-       
+
 
     }
 }

@@ -10,7 +10,6 @@ export const Socials = () => {
 			<a href="https://www.linkedin.com/in/andres-cordoba-sistemas/">
 				<FaLinkedinIn className="header_social-icon" />
 			</a>
-
 			<a href="https://github.com/ANDRESCO2022">
 				<VscGithub className="header_social-icon" />
 			</a>
