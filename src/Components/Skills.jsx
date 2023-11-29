@@ -1,23 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { sliderData } from '../data/sliderDta';
 import '../styles/skills.css';
 
 export const Skills = () => {
-	const [i, setI] = useState(1);
-	const [isMounted, setIsMounted] = useState(true);
-
-	useEffect(() => {
-		const interval = setInterval(() => {
-			if (isMounted) {
-				setI((prevI) => prevI + 1);
-			}
-		}, 1000);
-
-		return () => {
-			setIsMounted(false);
-			clearInterval(interval);
-		};
-	}, [isMounted]);
+	const [i, setI] = useState(0);
 
 	return (
 		<section id="skills">
