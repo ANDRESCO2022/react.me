@@ -1,15 +1,15 @@
-import Ecommerce from '../assets/Ecommerce.png';
 import Pokedesk from '../assets/Pokedesk.png';
 import RickMorthy from '../assets/RickMorthy.png';
 import Wather from '../assets/wather.png';
 import todo from '../assets/todo.png';
 import heroes from '../assets/heroes.png';
 import MernCalendar from '../assets/MERN.png';
+import Ecomerce from '../assets/ecomerce.png';
 
 export const portfolioData = [
 	{
 		id: 1,
-		image: Ecommerce,
+		image: Ecomerce,
 		textAlt: 'Ecommerce',
 		title: 'Ecommerce',
 		description:
