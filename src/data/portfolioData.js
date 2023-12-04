@@ -1,10 +1,10 @@
-import Pokedesk from '../assets/Pokedesk.png';
-import RickMorthy from '../assets/RickMorthy.png';
-import Wather from '../assets/wather.png';
-import todo from '../assets/todo.png';
-import heroes from '../assets/heroes.png';
-import MernCalendar from '../assets/MERN.png';
-import Ecomerce from '../assets/ecomerce.png';
+import Pokedesk from '../assets/projects//Pokedesk.png';
+import RickMorthy from '../assets/projects/RickMorthy.png';
+import Wather from '../assets/projects//wather.png';
+import todo from '../assets/projects/todo.png';
+import heroes from '../assets/projects/heroes.png';
+import MernCalendar from '../assets/projects/MERN.png';
+import Ecomerce from '../assets/projects/ecomerce.png';
 
 export const portfolioData = [
 	{
