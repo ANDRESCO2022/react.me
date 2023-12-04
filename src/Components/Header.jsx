@@ -1,21 +1,22 @@
-import React from 'react';
 import '../styles/header.css';
 import { Socials, Nav } from '../Components';
+import { useTranslation } from 'react-i18next';
 
 export const Header = () => {
+	const { t, i18n } = useTranslation('global');
+
 	return (
 		<header>
 			<Nav />
 			<div className="container header_container">
-				<h5>Hello I'm</h5>
-				<h1>Carlos Andres Cordoba</h1>
-				<h5 className="text-light">Systems Engineer, FullStack Developer</h5>
+				<h5>{t('header.Hello')}</h5>
+				<h1>Carlos Andrés Córdoba</h1>
+				<h5 className="text-light">{t('header.Profession')}</h5>
 				<Socials />
 				<a href="#contact" className="scroll_down">
-					Scroll Down
+					{t('header.ButtonScroll')}
 				</a>
 			</div>
-			<div></div>
 		</header>
 	);
 };

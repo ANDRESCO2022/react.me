@@ -1,0 +1,106 @@
+{
+    "header": {
+        "Hello": "Hola soy",
+        "Profession": "Ingeniero de Sistemas, Desarrollador FullStack",
+        "ButtonScroll": "hacia abajo"
+    },
+    "about": {
+        "AboutTitle": "Conoce",
+        "AboutTitles": "Acerca de Mi",
+        "AboutRemington": "Universidad",
+        "AboutBootcam": "Desarrollo Full Stack",
+        "AboutFIMLM": "Desarrollo Web",
+        "AboutDescriptionProfile": "Ingeniero de sistemas, desarrollador con experiencia en gestión y administración informática enfocado al desarrollo web. Tecnologías: JavaScript, Html, React.js, React-redux, CSS; Node.js, consulta de base de datos SQL, Postgres.",
+        "AboutTalk": "Hablemos"
+    },
+    "contact": {
+        "ContactTitle": "Ponte en contacto",
+        "ContactTitles": "Contáctame",
+        "ContactEmailLabel": "Correo electrónico",
+        "ContactSendLink": "Enviar",
+        "ContactMessenger": "Messenger",
+        "ContactWhatsApp": "WhatsApp",
+        "ContactFullName": "Nombre completo",
+        "ContactEmail": "Tu correo electrónico",
+        "ContactMessage": "Tu Mensaje"
+    },
+    "skills": {
+        "SkillsTitle": "Qué habilidades tengo"
+    },
+    "experience": {
+        "ExperienceTitle": "Mi experiencia"
+    },
+    "footer": {
+        "FooterHome": "Inicio",
+        "FooterAbout": "Acerca de Mi",
+        "FooterServices": "Servicios",
+        "FooterExperience": "Experiencia",
+        "FooterPortfolio": "Portafolio",
+        "FooterContact": "Contacto",
+        "FooterSkill": "Habilidades",
+        "FooterRigt": "Andresco2022 todos los derechos reservados."
+    },
+    "nav": {
+        "NavHome": "Inicio",
+        "NavAbout": "Acerca de Mi",
+        "NavServices": "Servicios",
+        "NavExperience": "Experiencia",
+        "NavPortfolio": "Portafolio",
+        "NavContact": "Contacto",
+        "NavSkills": "Habilidades"
+    },
+    "portfolio": {
+        "PortfolioTitle": "Mi trabajo reciente",
+        "PortfolioTitles": "Portafolio",
+        "portfolioDataLanguaje": {
+            "Ecommerce": {
+                "title": "Comercio electrónico",
+                "description": "sitio web desarrollado en react.js, uso de Api-rest desarrollado en node.js, uso de hooks, react-redux, thunk y jwt"
+            },
+            "Pokedesk": {
+                "title": "Pokedesk",
+                "description": "podedesk construido a partir de Api pokemon,lenguajes como javaScript,react, html , redux y css, funcionalidad de busqueda (id-name)"
+            },
+            "Rick and Morty": {
+                "title": "Rick y Morty",
+                "description": "Esta es una aplicación web que permite buscar personajes y episodios de la serie Rick y Morty. Está construida usando React y Redux"
+            },
+            "App-Wather": {
+                "id": 4,
+                "title": "Aplicación-Wather",
+                "description": "web construida a partir de api meteorológica uso y desarrollo con jsx, estilos css y html"
+            },
+            "App-Todo": {
+                "title": "Aplicación-Todo",
+                "description": "lista de tareas sitio web construido con react.js, tailwind CSS diseño sensible"
+            },
+            "App-Heroes": {
+                "title": "Aplicación-Héroes",
+                "description": "sitio web construido a partir de superhéroes api, desplegado en firebase, con react.js,tailwind CSS responsive design"
+            },
+            "Mern-Calendar": {
+                "title": "Mern-Calendario",
+                "description": "plicación de calendario, inicio de sesión en google, gestión de tareas y reuniones, control de fechas y horarios"
+            }
+        }
+    },
+    "services": {
+        "ServicesTitle": "Qué servicios ofrezco",
+        "ServicesTitles": "Servicios",
+        "ServicesFront": {
+            "title": "Desarrollador de diseño Frontend-UI.",
+            "listOne": "Diseño y desarrollo de páginas web.",
+            "listTwo": "Diseño y desarrollo del comercio electrónico en las redes.",
+            "listThree": "Creación de aplicaciones web para diferentes servicios."
+        },
+        "ServicesBack": {
+            "title": "Desarrollador Backend",
+            "listOne": "Creation of Api rest to integrate applications.",
+            "listTwo": "conexión de componentes en la arquitectura.",
+            "listThree": "Diseño y mantenimiento de aplicaciones backend."
+        }
+    },
+    "social": {
+        "SocialButtonCv": "Descargar CV"
+    }
+}

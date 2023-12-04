@@ -4,28 +4,33 @@ import '../styles/footer.css';
 import { BsFacebook } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
+	const { t, i18n } = useTranslation('global');
 	return (
 		<footer>
 			<ul className="linksPage">
 				<li>
-					<a href="#">Home</a>
+					<a href="#">{t('footer.FooterHome')}</a>
 				</li>
 				<li>
-					<a href="#about">About</a>
+					<a href="#about">{t('footer.FooterAbout')}</a>
 				</li>
 				<li>
-					<a href="#services">Services</a>
+					<a href="#services">{t('footer.FooterServices')}</a>
 				</li>
 				<li>
-					<a href="#experience">Experience</a>
+					<a href="#experience">{t('footer.FooterExperience')}</a>
 				</li>
 				<li>
-					<a href="#portfolio">Portfolio</a>
+					<a href="#portfolio">{t('footer.FooterPortfolio')}</a>
 				</li>
 				<li>
-					<a href="#contact">Contact</a>
+					<a href="#contact">{t('footer.FooterContact')}</a>
+				</li>
+				<li>
+					<a href="#skills">{t('footer.FooterSkill')}</a>
 				</li>
 			</ul>
 			<div className="footer_socials">
@@ -40,7 +45,7 @@ export const Footer = () => {
 				</a>
 			</div>
 			<div className="footer_copyright">
-				<small>&copy; Andresco2022 all right reserved.</small>
+				<small>&copy;{t('footer.FooterRigt')} </small>
 			</div>
 		</footer>
 	);

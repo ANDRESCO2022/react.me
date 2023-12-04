@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import { sliderData } from '../data/sliderDta';
 import '../styles/skills.css';
+import { useTranslation } from 'react-i18next';
 
 export const Skills = () => {
 	const [i, setI] = useState(0);
+	const { t, i18n } = useTranslation('global');
 
 	return (
 		<section id="skills">
-			<h2>What Skills I have</h2>
+			<h2>{t('skills.SkillsTitle')}</h2>
 
 			<div className="slider container">
 				{sliderData.map((itemSlider) => (

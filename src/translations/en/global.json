@@ -1,0 +1,106 @@
+{
+	"header": {
+		"Hello": "Hello I'm",
+		"Profession": "Systems Engineer, FullStack Developer",
+		"ButtonScroll": "Scroll Down"
+	},
+	"about": {
+		"AboutTitle": "Get To know",
+		"AboutTitles": "About Me",
+		"AboutRemington": "University Education",
+		"AboutBootcam": " Full Stack Development",
+		"AboutFIMLM": "Web Development",
+		"AboutDescriptionProfile": "Systems engineer, developer with experience in IT management and administration focused on web development. Technologies: JavaScript, Html, React.js, React-redux, CSS; Node.js, SQL database query, Postgres.",
+		"AboutTalk": "Let's Talk"
+	},
+	"contact": {
+		"ContactTitle": "Get In Touch",
+		"ContactTitles": "Contact Me",
+		"ContactEmailLabel": "Email",
+		"ContactSendLink": "Send message",
+		"ContactMessenger": "Messenger",
+		"ContactWhatsApp": "WhatsApp",
+		"ContactFullName": "Your Full Name",
+		"ContactEmail": "Your Email",
+		"ContactMessage": "Your Message"
+	},
+	"skills": {
+		"SkillsTitle": "What Skills I have"
+	},
+	"experience": {
+		"ExperienceTitle": "My Experience"
+	},
+	"footer": {
+		"FooterHome": "Home",
+		"FooterAbout": "About",
+		"FooterServices": "Services",
+		"FooterExperience": "Experience",
+		"FooterPortfolio": "Portfolio",
+		"FooterContact": "Contact",
+		"FooterSkill": "Skills",
+		"FooterRigt": "Andresco2022 all right reserved."
+	},
+	"nav": {
+		"NavHome": "Home",
+		"NavAbout": "About",
+		"NavServices": "Services",
+		"NavExperience": "Experience",
+		"NavPortfolio": "Portfolio",
+		"NavContact": "Contact",
+		"NavSkills": "Skills"
+	},
+	"portfolio": {
+		"PortfolioTitle": "My Recent Work",
+		"PortfolioTitles": "Portfolio",
+		"portfolioDataLanguaje": {
+			"Ecommerce": {
+				"title": "Ecommerce",
+				"description": "website developed in react.js, use of Api-rest developed in node.js, use of hooks, react-redux, thunk and jwt"
+			},
+			"Pokedesk": {
+				"title": "Pokedesk",
+				"description": "podedesk built from Api pokemon,languages like javaScript,react, html , redux and css, search functionality (id-name)"
+			},
+			"Rick and Morty": {
+				"title": "Rick and Morty",
+				"description": "This is a web application that allows you to search for characters and episodes of the Rick and Morty series. It is built using React and Redux"
+			},
+			"App-Wather": {
+				"id": 4,
+				"title": "App-Wather",
+				"description": "web built from weather api use and development with jsx, css styles and html"
+			},
+			"App-Todo": {
+				"title": "App-Todo",
+				"description": "task listing website built with react.js, tailwind CSS responsive design"
+			},
+			"App-Heroes": {
+				"title": "App-Héroes",
+				"description": "website built from superheroes api, deployed on firebase, with react.js,tailwind CSS responsive design"
+			},
+			"Mern-Calendar": {
+				"title": "Mern-Calendar",
+				"description": "calendar application, google login, task and meeting management, dates and schedules control"
+			}
+		}
+	},
+	"services": {
+		"ServicesTitle": "What Services I offer",
+		"ServicesTitles": "Services",
+		"ServicesFront": {
+			"title": "Developer Frontend-UI Design",
+			"listOne": "Design and develop web pages.",
+			"listTwo": "Design and development of e-commerce in the networks.",
+			"listThree": "Creation of web applications for different services"
+		},
+		"ServicesBack": {
+			"title": "Developer Backend",
+			"listOne": "Creation of Api rest to integrate applications.",
+			"listTwo": "connection of components in the architecture.",
+			"listThree": "Designing and maintaining backend."
+		}
+	},
+	"social": {
+		"SocialButtonCv": "Download CV"
+	}
+}

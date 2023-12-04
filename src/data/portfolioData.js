@@ -1,6 +1,6 @@
-import Ecommerce from '../assets/ecommerce.png';
-import Pokedesk from '../assets/pokedesk.png';
-import Rick from '../assets/rick.png';
+import Ecommerce from '../assets/Ecommerce.png';
+import Pokedesk from '../assets/Pokedesk.png';
+import RickMorthy from '../assets/RickMorthy.png';
 import Wather from '../assets/wather.png';
 import todo from '../assets/todo.png';
 import heroes from '../assets/heroes.png';
@@ -17,11 +17,12 @@ export const portfolioData = [
 		UrlGitHub: 'https://github.com/ANDRESCO2022/ecommers.git',
 		UrlDemo: 'https://first-ecommers.netlify.app/',
 	},
+
 	{
 		id: 2,
 		image: Pokedesk,
-		textAlt: 'React Pokedesk',
-		title: 'React Pokedesk',
+		textAlt: 'Pokedesk',
+		title: 'Pokedesk',
 		description:
 			'podedesk built from Api pokemon,languages like javaScript,react, html , redux and css, search functionality (id-name)',
 		UrlGitHub: 'https://github.com/ANDRESCO2022/pokedesk.git',
@@ -29,19 +30,19 @@ export const portfolioData = [
 	},
 	{
 		id: 3,
-		image: Rick,
-		textAlt: 'Rck and Morty',
-		title: 'Rck and Morty',
+		image: RickMorthy,
+		textAlt: 'Rick and Morty',
+		title: 'Rick and Morty',
 		description:
-			'web built from Api rick and morty use and hooks redux-thunk, development withjsx, css styles and html',
+			'This is a web application that allows you to search for characters and episodes of the Rick and Morty series. It is built using React and Redux.',
 		UrlGitHub: 'https://github.com/ANDRESCO2022/RickAndMorty.git',
 		UrlDemo: 'https://rickandmorthy-app.netlify.app/',
 	},
 	{
 		id: 4,
 		image: Wather,
-		textAlt: ' App-Wather',
-		title: ' App-Wather',
+		textAlt: 'App-Wather',
+		title: 'App-Wather',
 		description:
 			'web built from weather api use and development with jsx, css styles and html',
 		UrlGitHub: 'https://github.com/ANDRESCO2022/weatherConditions',
@@ -70,10 +71,10 @@ export const portfolioData = [
 	{
 		id: 7,
 		image: MernCalendar,
-		textAlt: 'Merrn/calendar',
+		textAlt: 'Merrn-Calendar',
 		title: 'Mern-Calendar',
 		description:
-			'calendar application, google login, task and meeting management, dates and schedules control.',
+			'calendar application, google login, task and meeting management, dates and schedules control',
 		UrlGitHub: 'https://github.com/ANDRESCO2022/FontEndCalendar',
 		UrlDemo: 'https://merncalendar-tools.netlify.app/',
 	},

@@ -41,6 +41,26 @@ body {
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png)
 }
+.app_flags{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    }
+.app_flags button {
+	border: none;
+	cursor: pointer;
+	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	width: 5%;
+	margin-left: 10px;
+}
+
+.app_flags button img {
+	width: 50%;
+}
 
 /*=====================*/
 .container {

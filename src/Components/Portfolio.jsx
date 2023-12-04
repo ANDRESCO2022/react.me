@@ -7,12 +7,16 @@ import 'swiper/css/free-mode';
 import { FreeMode, Pagination, Autoplay, EffectCoverflow } from 'swiper/modules';
 import { SiWebmoney } from 'react-icons/si';
 import { BsGithub } from 'react-icons/bs';
+import { useTranslation } from 'react-i18next';
+import global from '../translations/en/global.json';
 
 export const Portfolio = () => {
+	const { t, i18n } = useTranslation('global');
+
 	return (
 		<section id="portfolio">
-			<h5>My Recent Work</h5>
-			<h2>Portfolio</h2>
+			<h5>{t('portfolio.PortfolioTitle')}</h5>
+			<h2>{t('portfolio.PortfolioTitles')}</h2>
 			<Swiper
 				effect={'coverflow'}
 				grabCursor={true}
@@ -57,8 +61,10 @@ export const Portfolio = () => {
 							<div className="portfolio_item-image">
 								<img src={itemData.image} alt={itemData.textAlt} />
 							</div>
-							<h3>{itemData.title}</h3>
-							<p>{itemData.description}</p>
+							<h3>{t(`portfolio.portfolioDataLanguaje.${itemData.title}.title`)}</h3>
+							<h3>
+								{t(`portfolio.portfolioDataLanguaje.${itemData.title}.description`)}
+							</h3>
 							<a href={itemData.UrlGitHub} className="btn">
 								<BsGithub />
 							</a>
@@ -68,6 +74,27 @@ export const Portfolio = () => {
 						</article>
 					</SwiperSlide>
 				))}
+
+				{/* {portfolioData.map((itemData, id) => (
+					<SwiperSlide key={itemData.id}>
+						<article className="portfolio_item">
+							<div className="portfolio_item-image">
+								<img
+									src={t(`portfolio.projects.${itemData.id}.image`)}
+									alt={itemData.textAlt}
+								/>
+							</div>
+							<h3>{t(`portfolio.projects.${itemData.id.valueOf(id)}.title`)}</h3>
+							<p>{t(`portfolio.projects.${itemData.id}.description`)}</p>
+							<a href={itemData.UrlGitHub} className="btn">
+								<BsGithub />
+							</a>
+							<a href={itemData.UrlDemo} className="btn btn-primary">
+								Demo/ <SiWebmoney />
+							</a>
+						</article>
+					</SwiperSlide>
+				))} */}
 			</Swiper>
 		</section>
 	);

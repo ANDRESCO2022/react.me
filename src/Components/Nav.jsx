@@ -7,16 +7,18 @@ import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageAltDetail } from 'react-icons/bi';
 import { BsBookFill } from 'react-icons/bs';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const Nav = () => {
 	const [active, setActive] = useState('#');
+	const { t, i18n } = useTranslation('global');
 	return (
 		<nav>
 			<a
 				href="#"
 				onClick={() => setActive('#')}
 				className={active === '#' ? 'active' : ''}
-				tooltip="Home"
+				tooltip={t('nav.NavHome')}
 			>
 				<AiOutlineHome />
 			</a>
@@ -24,7 +26,7 @@ export const Nav = () => {
 				href="#about"
 				onClick={() => setActive('#about')}
 				className={active === '#about' ? 'active' : ''}
-				tooltip="About"
+				tooltip={t('nav.NavAbout')}
 			>
 				<RiUserSearchLine />
 			</a>
@@ -32,7 +34,7 @@ export const Nav = () => {
 				href="#services"
 				onClick={() => setActive('#services')}
 				className={active === '#services' ? 'active' : ''}
-				tooltip="Services"
+				tooltip={t('nav.NavServices')}
 			>
 				<RiServiceLine />
 			</a>
@@ -40,7 +42,7 @@ export const Nav = () => {
 				href="#portfolio"
 				onClick={() => setActive('#portfolio')}
 				className={active === '#portfolio' ? 'active' : ''}
-				tooltip="Portfolio"
+				tooltip={t('nav.NavPortfolio')}
 			>
 				<BsBookFill />
 			</a>
@@ -48,7 +50,7 @@ export const Nav = () => {
 				href="#skills"
 				onClick={() => setActive('#skills')}
 				className={active === '#skills' ? 'active' : ''}
-				tooltip="Skills"
+				tooltip={t('nav.NavSkills')}
 			>
 				<BiBook />
 			</a>
@@ -56,7 +58,7 @@ export const Nav = () => {
 				href="#experience"
 				onClick={() => setActive('#experience')}
 				className={active === '#experience' ? 'active' : ''}
-				tooltip="Experience"
+				tooltip={t('nav.NavExperience')}
 			>
 				<BiBook />
 			</a>
@@ -64,7 +66,7 @@ export const Nav = () => {
 				href="#contact"
 				onClick={() => setActive('#contact')}
 				className={active === '#contact' ? 'active' : ''}
-				tooltip="Contact"
+				tooltip={t('nav.NavContact')}
 			>
 				<BiMessageAltDetail />
 			</a>
