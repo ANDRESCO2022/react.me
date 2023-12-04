@@ -8,7 +8,6 @@ import { FreeMode, Pagination, Autoplay, EffectCoverflow } from 'swiper/modules'
 import { SiWebmoney } from 'react-icons/si';
 import { BsGithub } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
-import global from '../translations/en/global.json';
 
 export const Portfolio = () => {
 	const { t, i18n } = useTranslation('global');
@@ -74,27 +73,6 @@ export const Portfolio = () => {
 						</article>
 					</SwiperSlide>
 				))}
-
-				{/* {portfolioData.map((itemData, id) => (
-					<SwiperSlide key={itemData.id}>
-						<article className="portfolio_item">
-							<div className="portfolio_item-image">
-								<img
-									src={t(`portfolio.projects.${itemData.id}.image`)}
-									alt={itemData.textAlt}
-								/>
-							</div>
-							<h3>{t(`portfolio.projects.${itemData.id.valueOf(id)}.title`)}</h3>
-							<p>{t(`portfolio.projects.${itemData.id}.description`)}</p>
-							<a href={itemData.UrlGitHub} className="btn">
-								<BsGithub />
-							</a>
-							<a href={itemData.UrlDemo} className="btn btn-primary">
-								Demo/ <SiWebmoney />
-							</a>
-						</article>
-					</SwiperSlide>
-				))} */}
 			</Swiper>
 		</section>
 	);
