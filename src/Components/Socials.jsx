@@ -9,13 +9,13 @@ export const Socials = () => {
 	const { t, i18n } = useTranslation('global');
 	return (
 		<div className="header_socials">
-			<a href="https://www.linkedin.com/in/andres-cordoba-sistemas/">
+			<a href="https://www.linkedin.com/in/andres-cordoba-sistemas/" target="_blank">
 				<FaLinkedinIn className="header_social-icon" />
 			</a>
-			<a href="https://github.com/ANDRESCO2022">
+			<a href="https://github.com/ANDRESCO2022" target="_blank">
 				<VscGithub className="header_social-icon" />
 			</a>
-			<a href={CV} download className="btn ">
+			<a href={CV} download className="btn " target="_blank">
 				{t('social.SocialButtonCv')}
 			</a>
 		</div>

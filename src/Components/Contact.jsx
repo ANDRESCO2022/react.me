@@ -32,18 +32,26 @@ export const Contact = () => {
 						<MdOutlineEmail className="contact_option-icon" />
 						<h4>{t('contact.ContactEmailLabel')}</h4>
 						<h5>ancoro2009@gmail.com</h5>
-						<a href="mailto:ancoro2009@gmail.com">{t('contact.ContactSendLink')}</a>
+						<a href="mailto:ancoro2009@gmail.com" target="_blank">
+							{t('contact.ContactSendLink')}
+						</a>
 					</article>
 					<article className="contact_option">
 						<FaFacebookMessenger className="contact_option-icon" />
 						<h4> {t('contact.ContactMessenger')}</h4>
-						<a href="http://m.me/andres.cordoba.560"> {t('contact.ContactSendLink')}</a>
+						<a href="http://m.me/andres.cordoba.560" target="_blank">
+							{' '}
+							{t('contact.ContactSendLink')}
+						</a>
 					</article>
 					<article className="contact_option">
 						<BsWhatsapp className="contact_option-icon" />
 						<h4> {t('contact.ContactWhatsApp')}</h4>
 						<h5>+573167541892</h5>
-						<a href="https://api.whatsapp.com/send?phone=+573167541892&text= Hola!%20Quiero%20contactarte%20me%20interesa%20tu%20perfil!">
+						<a
+							href="https://api.whatsapp.com/send?phone=+573167541892&text= Hola!%20Quiero%20contactarte%20me%20interesa%20tu%20perfil!"
+							target="_blank"
+						>
 							{t('contact.ContactSendLink')}
 						</a>
 					</article>

@@ -64,10 +64,10 @@ export const Portfolio = () => {
 							<h3>
 								{t(`portfolio.portfolioDataLanguaje.${itemData.title}.description`)}
 							</h3>
-							<a href={itemData.UrlGitHub} className="btn">
+							<a href={itemData.UrlGitHub} className="btn" target="_blank">
 								<BsGithub />
 							</a>
-							<a href={itemData.UrlDemo} className="btn btn-primary">
+							<a href={itemData.UrlDemo} className="btn btn-primary" target="_blank">
 								Demo/ <SiWebmoney />
 							</a>
 						</article>

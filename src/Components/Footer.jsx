@@ -34,13 +34,13 @@ export const Footer = () => {
 				</li>
 			</ul>
 			<div className="footer_socials">
-				<a href="https://www.facebook.com/andres.cordoba.560">
+				<a href="https://www.facebook.com/andres.cordoba.560" target="_blank">
 					<BsFacebook />
 				</a>
-				<a href="hhttps://www.linkedin.com/in/andres-cordoba-sistemas/">
+				<a href="hhttps://www.linkedin.com/in/andres-cordoba-sistemas/" target="_blank">
 					<FaLinkedinIn />
 				</a>
-				<a href="https://github.com/ANDRESCO2022">
+				<a href="https://github.com/ANDRESCO2022" target="_blank">
 					<FaGithub />
 				</a>
 			</div>
