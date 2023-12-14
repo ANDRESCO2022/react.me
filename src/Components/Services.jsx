@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/services.css';
 import { GiCheckMark } from 'react-icons/gi';
 import { useTranslation } from 'react-i18next';

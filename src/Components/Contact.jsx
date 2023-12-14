@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { FaFacebookMessenger } from 'react-icons/fa';

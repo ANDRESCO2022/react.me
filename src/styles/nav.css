@@ -5,7 +5,7 @@ nav {
     padding: .5rem;
     z-index: 2;
     position: fixed;
-    bottom: 5rem;
+    /* bottom: 5rem; */
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;

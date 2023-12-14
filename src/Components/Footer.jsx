@@ -1,7 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
 import '../styles/footer.css';
-import { BsFacebook } from 'react-icons/bs';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
@@ -34,9 +31,6 @@ export const Footer = () => {
 				</li>
 			</ul>
 			<div className="footer_socials">
-				<a href="https://www.facebook.com/andres.cordoba.560" target="_blank">
-					<BsFacebook />
-				</a>
 				<a href="hhttps://www.linkedin.com/in/andres-cordoba-sistemas/" target="_blank">
 					<FaLinkedinIn />
 				</a>

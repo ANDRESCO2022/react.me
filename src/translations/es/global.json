@@ -28,7 +28,11 @@
         "SkillsTitle": "Qué habilidades tengo"
     },
     "experience": {
-        "ExperienceTitle": "Mi experiencia"
+        "ExperienceTitle": "Mi experiencia",
+        "ExperienceSistemTitle":"Ingeniero de sistemas",
+		"ExperienceSistem":"Soporte y configuración de hardware y software administración de ordenadores y sistemas",
+		"ExperienceSoftwareTitle":"Ingeniero de software",
+		"ExperienceSoftware":" desarrollo web FullStack, análisis de requisitos, desarrollo de documentación y procesos empresariales"
     },
     "footer": {
         "FooterHome": "Inicio",

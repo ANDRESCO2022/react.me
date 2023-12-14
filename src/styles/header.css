@@ -1,12 +1,13 @@
 header {
-    /* height:100vh; */
+    height: 100vh;
     padding-top: 2rem;
     overflow: hidden;
+    width: 100%;
 }
 
 .container.header_container {
     text-align: center;
-    /* height:100%; */
+    height: 100%;
     /* position:relative; */
 }
 
@@ -24,9 +25,8 @@ header {
 /*=============0*/
 .header_socials {
 
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     display: flex;
-
     left: 2rem;
     bottom: 3rem;
     gap: 1rem;
@@ -44,6 +44,43 @@ header {
 .header_social-icon {
     width: 3rem;
     height: 4rem;
+    padding: 0.5rem;
+}
+
+.header__me {
+    width: 100%;
+    height: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: lenear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
+    display: grid;
+    place-items: center;
+    justify-items: center;
+    align-items: start;
+    justify-content: center;
+}
+
+.header__me img {
+    border-radius: 2rem;
+    /* overflow: hidden; */
+    transform: rotate(10deg);
+    transition: var(--transition);
+    width: 55%;
+    height: 72%;
+
+}
+
+.header_home {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__me img:hover {
+    transform: rotate(0)
 }
 
 /*=============*/
@@ -72,11 +109,23 @@ header {
 
 }
 
+
 /*============*/
-@media screen and (max-width: 1024px) {
-    /* header {
-        height: 68vh;
-    } */
+@media screen and (max-width: 1500px) {
+    .header__me {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .text-light {
+        font-size: 1.5rem;
+        margin: auto;
+    }
+
+    .header__me img {
+        background: red;
+        width: 100%x;
+        height: 90%;
+    }
 
 }
 
@@ -84,5 +133,17 @@ header {
     .scroll_down {
         display: none;
     }
+
+    .header__me img {
+
+        width: 50%;
+        height: 80%;
+
+    }
+
+    .header__me {
+        grid-template-columns: 1fr;
+    }
+
 
 }

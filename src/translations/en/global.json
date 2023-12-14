@@ -28,7 +28,11 @@
 		"SkillsTitle": "What Skills I have"
 	},
 	"experience": {
-		"ExperienceTitle": "My Experience"
+		"ExperienceTitle": "My Experience",
+		"ExperienceSistemTitle":"Systems Engineer",
+		"ExperienceSistem":"Hardware and software support and configuration computer and systems administration",
+		"ExperienceSoftwareTitle":"Software Engineer",
+		"ExperienceSoftware":"full stack web development, Requirements analysis, documentation development and business processes"
 	},
 	"footer": {
 		"FooterHome": "Home",

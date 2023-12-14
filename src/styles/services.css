@@ -53,28 +53,7 @@
     font-size: 0.9rem;
 }
 
-/* Para pantallas con un ancho máximo de 1024px */
-@media screen and (max-width: 1024px) {
-    .slider {
-        width: 5rem;
-        height: 5rem;
-        transform: translateY(15px) scale(1);
-    }
 
-    .slider span {
-        transform: rotateY(calc(var(--i) * 45deg)) translateZ(122.5rem);
-    }
-
-    .slider span img {
-        transition: 1s;
-    }
-
-    #skills h2 {
-        font-size: 1.5em;
-    }
-}
-
-/* Para pantallas con un ancho máximo de 1024px */
 @media screen and (max-width: 600px) {
     .services_container {
         display: flex;
@@ -82,5 +61,17 @@
         flex-wrap: wrap;
         width: 90%;
         justify-content: center;
+    }
+
+    section h2 {
+        margin-bottom: 0;
+    }
+
+    .service_head {
+        padding: 0.3rem;
+    }
+
+    .service_list {
+        padding: 1rem;
     }
 }

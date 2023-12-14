@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { sliderData } from '../data/sliderDta';
 import '../styles/skills.css';
 import { useTranslation } from 'react-i18next';
+import avatar from '../assets/avatar.png';
 
 export const Skills = () => {
 	const [i, setI] = useState(0);
@@ -23,6 +24,7 @@ export const Skills = () => {
 					</span>
 				))}
 			</div>
+			<img className="skill_avatar" src={avatar} alt="" />
 		</section>
 	);
 };

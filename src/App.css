@@ -10,6 +10,7 @@
   text-decoration: none;
 
 
+
 }
 
 :root {
@@ -41,25 +42,27 @@ body {
   line-height: 1.7;
   background-image: url(../src/assets/bg-texture.png)
 }
-.app_flags{
-    display: flex;
-    justify-content: flex-end;
-    padding: 0.5rem;
-    }
+
+.app_flags {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
 .app_flags button {
-	border: none;
-	cursor: pointer;
-	background: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	display: inline-block;
-	width: 5%;
-	margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  width: 5%;
+  margin-left: 10px;
 }
 
 .app_flags button img {
-	width: 50%;
+  width: 50%;
 }
 
 /*=====================*/
@@ -83,7 +86,8 @@ h1 {
 
 section {
   margin-top: 1rem;
-  height: 100%
+  height: 100vh;
+  width: 100%
 }
 
 section>h2,
@@ -122,6 +126,7 @@ a:hover {
   border-radius: 1rem;
   margin-left: 1rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: .8rem;
 }
 
@@ -165,5 +170,6 @@ img {
     margin-bottom: 2 rem;
 
   }
+
 
 }

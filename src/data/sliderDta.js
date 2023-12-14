@@ -6,7 +6,7 @@ import css from '../assets/css.png';
 import Postgres from '../assets/postgres.png';
 import Node from '../assets/node.png';
 import SQL from '../assets/sql.png';
-import Python from '../assets/Python.svg.png';
+import Python from '../assets/Python.png';
 export const sliderData = [
 	{
 		id: 1,

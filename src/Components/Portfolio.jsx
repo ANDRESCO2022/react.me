@@ -29,20 +29,20 @@ export const Portfolio = () => {
 					stretch: 0,
 					depth: 100,
 					modifier: 2.5,
-					slideShadows: true,
+					slideShadows: false,
 				}}
 				autoplay={{
-					delay: 3000,
+					delay: 2500,
 					disableOnInteraction: false,
 				}}
 				breakpoints={{
 					300: {
 						slidesPerView: 1,
-						spaceBetween: 5,
+						spaceBetween: 2,
 					},
 					600: {
 						slidesPerView: 2,
-						spaceBetween: 10,
+						spaceBetween: 5,
 					},
 					680: {
 						slidesPerView: 3,

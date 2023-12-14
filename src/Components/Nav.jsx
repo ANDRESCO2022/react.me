@@ -1,13 +1,13 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import '../styles/nav.css';
 import { AiOutlineHome } from 'react-icons/ai';
 import { RiUserSearchLine } from 'react-icons/ri';
-import { BiBook } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageAltDetail } from 'react-icons/bi';
-import { BsBookFill } from 'react-icons/bs';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { GiSkills } from 'react-icons/gi';
+import { GrProjects } from 'react-icons/gr';
+import { VscBriefcase } from 'react-icons/vsc';
+import { GrServices } from 'react-icons/gr';
 
 export const Nav = () => {
 	const [active, setActive] = useState('#');
@@ -36,23 +36,7 @@ export const Nav = () => {
 				className={active === '#services' ? 'active' : ''}
 				tooltip={t('nav.NavServices')}
 			>
-				<RiServiceLine />
-			</a>
-			<a
-				href="#portfolio"
-				onClick={() => setActive('#portfolio')}
-				className={active === '#portfolio' ? 'active' : ''}
-				tooltip={t('nav.NavPortfolio')}
-			>
-				<BsBookFill />
-			</a>
-			<a
-				href="#skills"
-				onClick={() => setActive('#skills')}
-				className={active === '#skills' ? 'active' : ''}
-				tooltip={t('nav.NavSkills')}
-			>
-				<BiBook />
+				<GrServices />
 			</a>
 			<a
 				href="#experience"
@@ -60,7 +44,23 @@ export const Nav = () => {
 				className={active === '#experience' ? 'active' : ''}
 				tooltip={t('nav.NavExperience')}
 			>
-				<BiBook />
+				<VscBriefcase />
+			</a>
+			<a
+				href="#skills"
+				onClick={() => setActive('#skills')}
+				className={active === '#skills' ? 'active' : ''}
+				tooltip={t('nav.NavSkills')}
+			>
+				<GiSkills />
+			</a>
+			<a
+				href="#portfolio"
+				onClick={() => setActive('#portfolio')}
+				className={active === '#portfolio' ? 'active' : ''}
+				tooltip={t('nav.NavPortfolio')}
+			>
+				<GrProjects />
 			</a>
 			<a
 				href="#contact"

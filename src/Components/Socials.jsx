@@ -1,7 +1,5 @@
-import React from 'react';
-
 import { FaLinkedinIn } from 'react-icons/fa6';
-import CV from '../assets/Carlos Andres Cordoba Rodriguez.pdf';
+import CV from '../assets/cv/Carlos Andrés Córdoba R.pdf';
 import { VscGithub } from 'react-icons/vsc';
 import { useTranslation } from 'react-i18next';
 
