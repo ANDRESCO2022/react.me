@@ -32,7 +32,7 @@
         "ExperienceSistemTitle":"Ingeniero de sistemas",
 		"ExperienceSistem":"Soporte y configuración de hardware y software administración de ordenadores y sistemas",
 		"ExperienceSoftwareTitle":"Ingeniero de software",
-		"ExperienceSoftware":" desarrollo web FullStack, análisis de requisitos, desarrollo de documentación y procesos empresariales"
+		"ExperienceSoftware":" Desarrollo web FullStack, análisis de requisitos, desarrollo de documentación y procesos empresariales"
     },
     "footer": {
         "FooterHome": "Inicio",
@@ -59,11 +59,11 @@
         "portfolioDataLanguaje": {
             "Ecommerce": {
                 "title": "Comercio electrónico",
-                "description": "sitio web desarrollado en react.js, uso de Api-rest desarrollado en node.js, uso de hooks, react-redux, thunk y jwt"
+                "description": "Sitio web desarrollado en react.js, uso de Api-rest desarrollado en node.js, uso de hooks, react-redux, thunk y jwt"
             },
             "Pokedesk": {
                 "title": "Pokedesk",
-                "description": "podedesk construido a partir de Api pokemon,lenguajes como javaScript,react, html , redux y css, funcionalidad de busqueda (id-name)"
+                "description": "Podedesk construido a partir de Api pokemon,lenguajes como javaScript,react, html , redux y css, funcionalidad de busqueda (id-name)"
             },
             "Rick and Morty": {
                 "title": "Rick y Morty",
@@ -72,19 +72,19 @@
             "App-Wather": {
                 "id": 4,
                 "title": "Aplicación-Wather",
-                "description": "web construida a partir de api meteorológica uso y desarrollo con jsx, estilos css y html"
+                "description": "Web construida a partir de api meteorológica uso y desarrollo con jsx, estilos css y html"
             },
             "App-Todo": {
                 "title": "Aplicación-Todo",
-                "description": "lista de tareas sitio web construido con react.js, tailwind CSS diseño sensible"
+                "description": "Lista de tareas sitio web construido con react.js, tailwind CSS diseño sensible"
             },
             "App-Heroes": {
                 "title": "Aplicación-Héroes",
-                "description": "sitio web construido a partir de superhéroes api, desplegado en firebase, con react.js,tailwind CSS responsive design"
+                "description": "Sitio web construido a partir de superhéroes api, desplegado en firebase, con react.js,tailwind CSS responsive design"
             },
             "Mern-Calendar": {
                 "title": "Mern-Calendario",
-                "description": "plicación de calendario, inicio de sesión en google, gestión de tareas y reuniones, control de fechas y horarios"
+                "description": "Aplicación de calendario, inicio de sesión en google, gestión de tareas y reuniones, control de fechas y horarios"
             }
         }
     },
@@ -100,7 +100,7 @@
         "ServicesBack": {
             "title": "Desarrollador Backend",
             "listOne": "Creation of Api rest to integrate applications.",
-            "listTwo": "conexión de componentes en la arquitectura.",
+            "listTwo": "Conexión de componentes en la arquitectura.",
             "listThree": "Diseño y mantenimiento de aplicaciones backend."
         }
     },

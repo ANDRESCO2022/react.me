@@ -32,7 +32,7 @@
 		"ExperienceSistemTitle":"Systems Engineer",
 		"ExperienceSistem":"Hardware and software support and configuration computer and systems administration",
 		"ExperienceSoftwareTitle":"Software Engineer",
-		"ExperienceSoftware":"full stack web development, Requirements analysis, documentation development and business processes"
+		"ExperienceSoftware":"Full stack web development, Requirements analysis, documentation development and business processes"
 	},
 	"footer": {
 		"FooterHome": "Home",
@@ -59,11 +59,11 @@
 		"portfolioDataLanguaje": {
 			"Ecommerce": {
 				"title": "Ecommerce",
-				"description": "website developed in react.js, use of Api-rest developed in node.js, use of hooks, react-redux, thunk and jwt"
+				"description": "Website developed in react.js, use of Api-rest developed in node.js, use of hooks, react-redux, thunk and jwt"
 			},
 			"Pokedesk": {
 				"title": "Pokedesk",
-				"description": "podedesk built from Api pokemon,languages like javaScript,react, html , redux and css, search functionality (id-name)"
+				"description": "Podedesk built from Api pokemon,languages like javaScript,react, html , redux and css, search functionality (id-name)"
 			},
 			"Rick and Morty": {
 				"title": "Rick and Morty",
@@ -72,19 +72,19 @@
 			"App-Wather": {
 				"id": 4,
 				"title": "App-Wather",
-				"description": "web built from weather api use and development with jsx, css styles and html"
+				"description": "Web built from weather api use and development with jsx, css styles and html"
 			},
 			"App-Todo": {
 				"title": "App-Todo",
-				"description": "task listing website built with react.js, tailwind CSS responsive design"
+				"description": "Task listing website built with react.js, tailwind CSS responsive design"
 			},
 			"App-Heroes": {
 				"title": "App-Héroes",
-				"description": "website built from superheroes api, deployed on firebase, with react.js,tailwind CSS responsive design"
+				"description": "Website built from superheroes api, deployed on firebase, with react.js,tailwind CSS responsive design"
 			},
 			"Mern-Calendar": {
 				"title": "Mern-Calendar",
-				"description": "calendar application, google login, task and meeting management, dates and schedules control"
+				"description": "Calendar application, google login, task and meeting management, dates and schedules control"
 			}
 		}
 	},
@@ -100,7 +100,7 @@
 		"ServicesBack": {
 			"title": "Developer Backend",
 			"listOne": "Creation of Api rest to integrate applications.",
-			"listTwo": "connection of components in the architecture.",
+			"listTwo": "Connection of components in the architecture.",
 			"listThree": "Designing and maintaining backend."
 		}
 	},
